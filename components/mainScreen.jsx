@@ -3,8 +3,8 @@ import MusicList from "./musicList";
 
 export default function MainScreen() {
   return (
-    <section className="grow  bg-zinc-950 flex flex-row">
-      <div className="w-1/6 rounded-md bg-zinc-900 p-10">
+    <section className="grow bg-gradient-to-t from-zinc-700 flex flex-row">
+      <div className="w-1/6  bg-zinc-900 p-10">
         <ImportFiles />
       </div>
       <main
